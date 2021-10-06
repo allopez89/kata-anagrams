@@ -28,5 +28,5 @@ def Timer():
     start = timer()
     Anagrams(ReadFile("src\wordlist.txt"))
     end = timer()
-    print(end - start)
+    return end - start
     
